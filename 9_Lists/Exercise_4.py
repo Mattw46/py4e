@@ -10,5 +10,5 @@ for line in fhandle:
         if word not in words:
             words.append(word)
 
-words.sort
+words.sort()
 print(words)
