@@ -4,7 +4,7 @@ while done == False:
     value = input('Enter a number: ')
     if value == 'done':
         break;
-    valueList.append(value)
+    valueList.append(float(value))
 
-print('Maximum: ' + max(valueList))
-print('Minimum: ' + min(valueList))
+print('Maximum: ' + str(max(valueList)))
+print('Minimum: ' + str(min(valueList)))
